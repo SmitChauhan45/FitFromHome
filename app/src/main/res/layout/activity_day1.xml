@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECF2FF"
+    tools:context=".day1">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fatloseplansbg"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DAY 1 | 7 EXERCISE"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:fontFamily="@font/bungee"
+        android:layout_marginTop="20dp"
+       android:layout_gravity="center"/>
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rectangle_5721_shape"
+        android:elevation="4dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:layout_width="315dp"
+        android:layout_height="135dp">
+
+        <TextView
+            android:id="@+id/mctext"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="MOUNTAIN CLIMBER\n\00:30"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/mcvm"
+            android:layout_width="100dp"
+            android:layout_height="37dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="5dp"
+            android:layout_below="@+id/mctext"
+            android:layout_marginLeft="40dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="15dp">
+            <TextView
+
+                android:layout_gravity="center"
+                android:fontFamily="monospace"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View More"/>
+        </androidx.cardview.widget.CardView>
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/mctext"
+            android:src="@drawable/mountainclimber"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rectangle_5721_shape"
+        android:elevation="4dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:layout_width="315dp"
+        android:layout_height="135dp">
+
+        <TextView
+            android:id="@+id/squattext"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="SQUATS\n\x16"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/squatvm"
+            android:layout_width="100dp"
+            android:layout_height="37dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="5dp"
+            android:layout_below="@+id/squattext"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="15dp">
+            <TextView
+                android:layout_gravity="center"
+                android:fontFamily="monospace"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View More"/>
+        </androidx.cardview.widget.CardView>
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/squattext"
+            android:src="@drawable/squat"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rectangle_5721_shape"
+        android:elevation="4dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:layout_width="315dp"
+        android:layout_height="135dp">
+
+        <TextView
+            android:id="@+id/pushtxt"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="PUSH UPS\n\x16"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/pushupsvm"
+            android:layout_width="100dp"
+            android:layout_height="37dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="5dp"
+            android:layout_below="@+id/pushtxt"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="15dp">
+            <TextView
+                android:layout_gravity="center"
+                android:fontFamily="monospace"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View More"/>
+        </androidx.cardview.widget.CardView>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/pushtxt"
+            android:src="@drawable/pushup"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rectangle_5721_shape"
+        android:elevation="4dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:layout_width="315dp"
+        android:layout_height="135dp">
+
+        <TextView
+            android:id="@+id/crunchestxt"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="CRUNCHES\n\x16"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/crunchvm"
+            android:layout_width="100dp"
+            android:layout_height="37dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="5dp"
+            android:layout_below="@+id/crunchestxt"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="15dp">
+            <TextView
+                android:layout_gravity="center"
+                android:fontFamily="monospace"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View More"/>
+        </androidx.cardview.widget.CardView>
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/crunchestxt"
+            android:src="@drawable/crunchs"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rectangle_5721_shape"
+        android:elevation="4dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:layout_width="315dp"
+        android:layout_height="135dp">
+
+        <TextView
+            android:id="@+id/planktxt"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="PLANK\n\00:30"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/plankvm"
+            android:layout_width="100dp"
+            android:layout_height="37dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="5dp"
+            android:layout_below="@+id/planktxt"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="15dp">
+            <TextView
+                android:layout_gravity="center"
+                android:fontFamily="monospace"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View More"/>
+        </androidx.cardview.widget.CardView>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/planktxt"
+            android:src="@drawable/plank"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rectangle_5721_shape"
+        android:elevation="4dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:layout_width="315dp"
+        android:layout_height="135dp">
+
+        <TextView
+            android:id="@+id/jumptxt"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="JUMP JACKS\n\00:30"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/jumpvm"
+            android:layout_width="100dp"
+            android:layout_height="37dp"
+            android:layout_below="@+id/jumptxt"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="monospace"
+                android:text="View More"
+                android:textColor="@color/black" />
+        </androidx.cardview.widget.CardView>
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/jumptxt"
+            android:src="@drawable/jumping"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rectangle_5721_shape"
+        android:elevation="4dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:layout_width="315dp"
+        android:layout_height="135dp">
+
+        <TextView
+            android:id="@+id/cobrastretchtxt"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="COBRA STRECH\n\00:30"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cobrastretchvm"
+            android:layout_width="100dp"
+            android:layout_height="37dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="5dp"
+            android:layout_below="@+id/cobrastretchtxt"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="15dp">
+            <TextView
+                android:layout_gravity="center"
+                android:fontFamily="monospace"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View More"/>
+        </androidx.cardview.widget.CardView>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/cobrastretchtxt"
+            android:src="@drawable/cobrastretch"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp" />
+    </RelativeLayout>
+</LinearLayout>
+
+</ScrollView>

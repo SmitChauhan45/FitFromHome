@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "138762308725",
+    "project_id": "fit-from-home-fc408",
+    "storage_bucket": "fit-from-home-fc408.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:138762308725:android:3eb042a710b5b5a8453c3c",
+        "android_client_info": {
+          "package_name": "com.example.fitnesssgp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "138762308725-jp8jvq93nti5eqlmoa8r04831qgg5qjb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFcGAPLIj4bhcw-URzClv9fg7Mop-rb74"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "138762308725-jp8jvq93nti5eqlmoa8r04831qgg5qjb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

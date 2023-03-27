@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/smitc/AndroidStudioProjects/FitnessSGP/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.199" />
+        <entry key="..\:/Users/smitc/AndroidStudioProjects/FitnessSGP/app/src/main/res/drawable/_bg__frame_6_ek2_shape.xml" value="0.199" />
+        <entry key="..\:/Users/smitc/AndroidStudioProjects/FitnessSGP/app/src/main/res/drawable/bg_shape.xml" value="0.199" />
+        <entry key="..\:/Users/smitc/AndroidStudioProjects/FitnessSGP/app/src/main/res/drawable/corner.xml" value="0.2375" />
+        <entry key="..\:/Users/smitc/AndroidStudioProjects/FitnessSGP/app/src/main/res/drawable/cornerforstep.xml" value="0.1935" />
+        <entry key="..\:/Users/smitc/AndroidStudioProjects/FitnessSGP/app/src/main/res/drawable/ellipse_115_shape.xml" value="0.199" />
+        <entry key="..\:/Users/smitc/AndroidStudioProjects/FitnessSGP/app/src/main/res/drawable/ellipse_116_shape.xml" value="0.199" />
+        <entry key="..\:/Users/smitc/AndroidStudioProjects/FitnessSGP/app/src/main/res/drawable/ellipse_117_shape.xml" value="0.199" />
+        <entry key="..\:/Users/smitc/AndroidStudioProjects/FitnessSGP/app/src/main/res/drawable/grediant.xml" value="0.2375" />
+        <entry key="..\:/Users/smitc/AndroidStudioProjects/FitnessSGP/app/src/main/res/drawable/ic_launcher_background.xml" value="0.199" />
+        <entry key="..\:/Users/smitc/AndroidStudioProjects/FitnessSGP/app/src/main/res/drawable/progressbarcircle.xml" value="0.199" />
+        <entry key="..\:/Users/smitc/AndroidStudioProjects/FitnessSGP/app/src/main/res/drawable/rectangle_5718_shape.xml" value="0.199" />
+        <entry key="..\:/Users/smitc/AndroidStudioProjects/FitnessSGP/app/src/main/res/drawable/rectangle_5721_shape.xml" value="0.199" />
+        <entry key="..\:/Users/smitc/AndroidStudioProjects/FitnessSGP/app/src/main/res/drawable/shadow.xml" value="0.1935" />
+        <entry key="..\:/Users/smitc/AndroidStudioProjects/FitnessSGP/app/src/main/res/drawable/workout_det.xml" value="0.199" />
+        <entry key="..\:/Users/smitc/AndroidStudioProjects/FitnessSGP/app/src/main/res/layout-v21/activity_login_page.xml" value="0.11854103343465046" />
+        <entry key="..\:/Users/smitc/AndroidStudioProjects/FitnessSGP/app/src/main/res/layout-v21/fragment_home.xml" value="0.2151268115942029" />
+        <entry key="..\:/Users/smitc/AndroidStudioProjects/FitnessSGP/app/src/main/res/layout-v21/frame_6.xml" value="0.22192028985507245" />
+        <entry key="..\:/Users/smitc/AndroidStudioProjects/FitnessSGP/app/src/main/res/layout/activity_bmi_calc.xml" value="0.24375" />
+        <entry key="..\:/Users/smitc/AndroidStudioProjects/FitnessSGP/app/src/main/res/layout/activity_burpeework.xml" value="0.17889492753623187" />
+        <entry key="..\:/Users/smitc/AndroidStudioProjects/FitnessSGP/app/src/main/res/layout/activity_byclework.xml" value="0.17889492753623187" />
+        <entry key="..\:/Users/smitc/AndroidStudioProjects/FitnessSGP/app/src/main/res/layout/activity_cobrastrechwork.xml" value="0.17889492753623187" />
+        <entry key="..\:/Users/smitc/AndroidStudioProjects/FitnessSGP/app/src/main/res/layout/activity_crunchesworkout.xml" value="0.17889492753623187" />
+        <entry key="..\:/Users/smitc/AndroidStudioProjects/FitnessSGP/app/src/main/res/layout/activity_day1.xml" value="0.17889492753623187" />
+        <entry key="..\:/Users/smitc/AndroidStudioProjects/FitnessSGP/app/src/main/res/layout/activity_day2.xml" value="0.17889492753623187" />
+        <entry key="..\:/Users/smitc/AndroidStudioProjects/FitnessSGP/app/src/main/res/layout/activity_day3.xml" value="0.17889492753623187" />
+        <entry key="..\:/Users/smitc/AndroidStudioProjects/FitnessSGP/app/src/main/res/layout/activity_day5.xml" value="0.16" />
+        <entry key="..\:/Users/smitc/AndroidStudioProjects/FitnessSGP/app/src/main/res/layout/activity_day6.xml" value="0.17889492753623187" />
+        <entry key="..\:/Users/smitc/AndroidStudioProjects/FitnessSGP/app/src/main/res/layout/activity_day7.xml" value="0.17889492753623187" />
+        <entry key="..\:/Users/smitc/AndroidStudioProjects/FitnessSGP/app/src/main/res/layout/activity_dipswork.xml" value="0.17889492753623187" />
+        <entry key="..\:/Users/smitc/AndroidStudioProjects/FitnessSGP/app/src/main/res/layout/activity_fat_loss.xml" value="0.264" />
+        <entry key="..\:/Users/smitc/AndroidStudioProjects/FitnessSGP/app/src/main/res/layout/activity_fatlossplans.xml" value="0.152" />
+        <entry key="..\:/Users/smitc/AndroidStudioProjects/FitnessSGP/app/src/main/res/layout/activity_heeltouchwork.xml" value="0.17889492753623187" />
+        <entry key="..\:/Users/smitc/AndroidStudioProjects/FitnessSGP/app/src/main/res/layout/activity_jumpackswork.xml" value="0.17889492753623187" />
+        <entry key="..\:/Users/smitc/AndroidStudioProjects/FitnessSGP/app/src/main/res/layout/activity_jumpsquatwork.xml" value="0.17889492753623187" />
+        <entry key="..\:/Users/smitc/AndroidStudioProjects/FitnessSGP/app/src/main/res/layout/activity_login_page.xml" value="0.264" />
+        <entry key="..\:/Users/smitc/AndroidStudioProjects/FitnessSGP/app/src/main/res/layout/activity_lungeswork.xml" value="0.17889492753623187" />
+        <entry key="..\:/Users/smitc/AndroidStudioProjects/FitnessSGP/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/smitc/AndroidStudioProjects/FitnessSGP/app/src/main/res/layout/activity_mountainclimber.xml" value="0.17889492753623187" />
+        <entry key="..\:/Users/smitc/AndroidStudioProjects/FitnessSGP/app/src/main/res/layout/activity_muscle_building.xml" value="0.2296875" />
+        <entry key="..\:/Users/smitc/AndroidStudioProjects/FitnessSGP/app/src/main/res/layout/activity_plankjackwork.xml" value="0.17889492753623187" />
+        <entry key="..\:/Users/smitc/AndroidStudioProjects/FitnessSGP/app/src/main/res/layout/activity_plankworkout.xml" value="0.17889492753623187" />
+        <entry key="..\:/Users/smitc/AndroidStudioProjects/FitnessSGP/app/src/main/res/layout/activity_pushupworkout.xml" value="0.17889492753623187" />
+        <entry key="..\:/Users/smitc/AndroidStudioProjects/FitnessSGP/app/src/main/res/layout/activity_sample.xml" value="0.24375" />
+        <entry key="..\:/Users/smitc/AndroidStudioProjects/FitnessSGP/app/src/main/res/layout/activity_signup_page.xml" value="0.2151268115942029" />
+        <entry key="..\:/Users/smitc/AndroidStudioProjects/FitnessSGP/app/src/main/res/layout/activity_skipingwork.xml" value="0.17889492753623187" />
+        <entry key="..\:/Users/smitc/AndroidStudioProjects/FitnessSGP/app/src/main/res/layout/activity_splash.xml" value="0.24375" />
+        <entry key="..\:/Users/smitc/AndroidStudioProjects/FitnessSGP/app/src/main/res/layout/activity_squatsworkout.xml" value="0.17889492753623187" />
+        <entry key="..\:/Users/smitc/AndroidStudioProjects/FitnessSGP/app/src/main/res/layout/activity_stepcounter.xml" value="0.17889492753623187" />
+        <entry key="..\:/Users/smitc/AndroidStudioProjects/FitnessSGP/app/src/main/res/layout/activity_yoga.xml" value="0.24375" />
+        <entry key="..\:/Users/smitc/AndroidStudioProjects/FitnessSGP/app/src/main/res/layout/fragment_calroiestarget.xml" value="0.21467391304347827" />
+        <entry key="..\:/Users/smitc/AndroidStudioProjects/FitnessSGP/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/Users/smitc/AndroidStudioProjects/FitnessSGP/app/src/main/res/layout/fragment_plans.xml" value="0.2" />
+        <entry key="..\:/Users/smitc/AndroidStudioProjects/FitnessSGP/app/src/main/res/layout/fragment_profile.xml" value="0.176" />
+        <entry key="..\:/Users/smitc/AndroidStudioProjects/FitnessSGP/app/src/main/res/menu/menu.xml" value="0.24375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

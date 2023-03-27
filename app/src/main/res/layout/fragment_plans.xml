@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:orientation="vertical"
+    tools:context=".plans">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_shape">
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/lottieAnimationView"
+                android:layout_width="350dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/lottieplan" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:fontFamily="@font/bungee"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:text="What do you want to Train"/>
+            <RelativeLayout
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rectangle_5721_shape"
+                android:elevation="4dp"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center"
+                android:layout_width="315dp"
+                android:layout_height="135dp">
+
+                <TextView
+                    android:id="@+id/rltxt"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Fat Lose Workout\n\30 Days | 7 exercise"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/flwviewmore"
+                    android:layout_width="100dp"
+                    android:layout_height="37dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="5dp"
+                    android:layout_below="@+id/rltxt"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="15dp">
+                    <TextView
+                        android:layout_gravity="center"
+                        android:fontFamily="monospace"
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="View More"/>
+                </androidx.cardview.widget.CardView>
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="50dp"
+                    android:layout_toRightOf="@id/rltxt"
+                    android:src="@drawable/jumpinggf"
+                    app:civ_border_color="#FF000000"
+                    app:civ_border_width="2dp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rectangle_5721_shape"
+                android:elevation="4dp"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center"
+                android:layout_width="315dp"
+                android:layout_height="135dp">
+
+                <TextView
+                    android:id="@+id/rltxt2"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Muscle Workout\n\30 Days | 7 exercise"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/mwviewmore"
+                    android:layout_width="100dp"
+                    android:layout_height="37dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="5dp"
+                    android:layout_below="@+id/rltxt2"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="15dp">
+                    <TextView
+                        android:layout_gravity="center"
+                        android:fontFamily="monospace"
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="View More"/>
+                </androidx.cardview.widget.CardView>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="50dp"
+                    android:layout_toRightOf="@id/rltxt2"
+                    android:src="@drawable/muscle"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="#FF000000"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rectangle_5721_shape"
+                android:elevation="4dp"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center"
+                android:layout_width="315dp"
+                android:layout_height="135dp">
+
+                <TextView
+                    android:id="@+id/rltxt3"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Yoga\n\30 Days | 7 exercise"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/yogaviewmore"
+                    android:layout_width="100dp"
+                    android:layout_height="37dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="5dp"
+                    android:layout_below="@+id/rltxt3"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="15dp">
+                    <TextView
+                        android:layout_gravity="center"
+                        android:fontFamily="monospace"
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="View More"/>
+                </androidx.cardview.widget.CardView>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="50dp"
+                    android:layout_toRightOf="@id/rltxt3"
+                    android:src="@drawable/yogaaa"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="#FF000000"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+    </ScrollView>

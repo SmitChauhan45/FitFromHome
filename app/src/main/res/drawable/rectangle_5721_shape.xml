@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- rectangle_5721 from your XD file. -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+	android:shape="rectangle" >
+	<corners android:radius="20dp" />
+	<solid android:color="@color/rectangle_5718_color" />
+	<gradient android:angle="45" android:type="linear" android:startColor="#ff92a3fd" android:endColor="#ff9dceff" />
+</shape>
+

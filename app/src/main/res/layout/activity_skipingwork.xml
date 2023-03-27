@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECF2FF"
+    android:scrollbarSize="5dp"
+    android:orientation="vertical"
+    tools:context=".cobrastrechwork">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#191825"
+            android:fontFamily="@font/bungee"
+            android:textSize="24sp"
+            android:text="Animation">
+        </TextView>
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="350dp"
+            android:layout_height="300dp"
+            android:scaleType="center"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:src="@drawable/skipping"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:text="Skipping"
+            android:textColor="#191825"
+            android:fontFamily="monospace"
+            android:textSize="24sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:text="Duration : 00:30"
+            android:textColor="#191825"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="24sp"/>
+    </LinearLayout>
+
+</ScrollView>
